@@ -18,11 +18,11 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 h3 {
@@ -49,14 +49,14 @@ p {
 .primary-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: rgb(255, 255, 255);
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
 }
 .primary-link:hover {
-  color: yellow;
+  color: rgb(255, 255, 0);
 }
 
 .secondary-link {
@@ -116,4 +116,22 @@ p {
 .navbar ul li {
   list-style-type: none;
   display: inline;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
