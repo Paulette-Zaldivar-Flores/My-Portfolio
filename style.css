@@ -56,7 +56,7 @@ p {
   text-transform: capitalize;
 }
 .primary-link:hover {
-  color: rgb(255, 255, 0);
+  color: #8ef6e4;
 }
 
 .secondary-link {
@@ -106,24 +106,6 @@ p {
   list-style-type: none;
   display: inline;
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 48px;
-    line-height: 1.5;
-  }
-  h2 {
-    font-size: 36px;
-    text-align: center;
-  }
-  p {
-    text-align: center;
-  }
-  .project-link {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-  }
-}
 
 footer .email {
   margin-bottom: 40px;
@@ -158,4 +140,32 @@ footer .email a {
 }
 #link a:hover {
   color: rgb(229, 162, 235);
+}
+.closing-statement {
+  text-align: left;
+  font-size: 25px;
+}
+.intro {
+  background: #ffe9e3;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  .closing-statement {
+    text-align: center;
+  }
 }
