@@ -127,20 +127,35 @@ p {
 
 footer .email {
   margin-bottom: 40px;
-  font-weight: 500;
-  font-size: 24px;
 }
 
 footer .email a {
   text-decoration: none;
-  color: #000000;
   font-family: "Playfair Display", serif;
-  font-size: 24px;
 }
 
-footer .icon {
-  color: #4b0082;
-
+#contact a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 30px;
+}
+#contact a:hover {
+  color: rgb(229, 162, 235);
+}
+#contact-me i {
+  font-size: 60px;
+  color: var(--primary-color);
   border-radius: 50%;
-  padding: 12px 14px;
+  padding: 5px 10px;
+}
+#contact-me i:hover {
+  color: rgb(229, 162, 235);
+}
+
+#link a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+#link a:hover {
+  color: rgb(229, 162, 235);
 }
