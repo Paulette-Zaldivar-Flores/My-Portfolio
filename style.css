@@ -1,6 +1,8 @@
 :root {
   --primary-color: #4b0082;
   --secondary-color: #f5f2fe;
+  --ascent-color: rgb(229, 162, 235);
+  --background-color: #ffe9e3;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -147,6 +149,15 @@ footer .email a {
 }
 .intro {
   background: #ffe9e3;
+}
+
+.work-inquiry {
+  background: var(--background-color);
+  margin: 0 auto;
+  padding: 30px 15px;
+  width: 80%;
+  text-align: center;
+  justify-content: space-around;
 }
 @media (max-width: 576px) {
   h1 {
