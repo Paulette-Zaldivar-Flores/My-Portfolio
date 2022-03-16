@@ -81,7 +81,11 @@ p {
 }
 
 .about-paragraphs p {
+  padding: 20px 10px;
   margin: 10px;
+}
+#about-me {
+  font-size: 20px;
 }
 
 .container {
@@ -150,15 +154,19 @@ footer .email a {
 .intro {
   background: #ffe9e3;
 }
-
-.work-inquiry {
-  background: var(--background-color);
-  margin: 0 auto;
-  padding: 30px 15px;
-  width: 80%;
-  text-align: center;
-  justify-content: space-around;
+#hi {
+  padding-top: 20px;
 }
+#intro-contact {
+  padding-bottom: 20px;
+}
+
+#icons {
+  font-size: 80px;
+  padding: 5px 10px;
+  color: var(--primary-color);
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
@@ -178,5 +186,8 @@ footer .email a {
   }
   .closing-statement {
     text-align: center;
+  }
+  #icons i {
+    font-size: 60px;
   }
 }
