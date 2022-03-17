@@ -5,6 +5,118 @@
   --background-color: #ffe9e3;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+.fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.logo {
+  max-width: 80px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+}
+.navbar {
+  margin: 0 !important;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  float: left;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline;
+}
+.navbar {
+  padding: 15px 50px;
+  background-color: var(--primary-color);
+}
+
+.navbar-brand,
+a.nav-link {
+  letter-spacing: 0.1em;
+  font-size: 1em;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin: 0px 10px 0px 10px;
+}
+
+a.nav-link {
+  position: relative;
+}
+
+a.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+a.nav-link:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
 
 body {
   margin-top: 100px 0;
@@ -29,7 +141,6 @@ h2 {
 
 h3 {
   font-size: 24px;
-  opacity: 0.7;
 }
 
 p {
@@ -91,27 +202,6 @@ p {
 .container {
   font-family: "Playfair Display", serif;
 }
-.logo {
-  max-width: 80px;
-  border-radius: 5px;
-  border: 1px solid var(--primary-color);
-}
-.navbar {
-  margin: 0 !important;
-  width: 100%;
-  padding: 20px;
-  margin-bottom: 20px;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  top: 0px;
-  float: left;
-}
-
-.navbar ul li {
-  list-style-type: none;
-  display: inline;
-}
 
 footer {
   bottom: 0px;
@@ -156,8 +246,21 @@ footer .email a {
   text-align: left;
   font-size: 25px;
 }
+.intro-hi {
+  background: url("images/background-image.jpg");
+  background-color: #cccccc;
+
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .intro {
-  background: #ffe9e3;
+  background-color: var(--background-color);
+}
+.fade-in {
+  color: #ffffff;
 }
 #hi {
   padding-top: 20px;
