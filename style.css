@@ -113,6 +113,11 @@ p {
   display: inline;
 }
 
+footer {
+  bottom: 0px;
+  width: 100%;
+}
+
 footer .email {
   margin-bottom: 40px;
 }
