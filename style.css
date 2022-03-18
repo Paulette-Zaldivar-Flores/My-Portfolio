@@ -2,15 +2,16 @@
   --primary-color: #4b0082;
   --secondary-color: #f5f2fe;
   --ascent-color: rgb(229, 162, 235);
-  --background-color: #ffe9e3;
+  --background-color: #eec2c2;
+
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .fade-in {
-  animation: fadeIn ease 10s;
-  -webkit-animation: fadeIn ease 10s;
-  -moz-animation: fadeIn ease 10s;
-  -o-animation: fadeIn ease 10s;
-  -ms-animation: fadeIn ease 10s;
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
 }
 @keyframes fadeIn {
   0% {
@@ -203,44 +204,12 @@ p {
   font-family: "Playfair Display", serif;
 }
 
-footer {
-  bottom: 0px;
-  width: 100%;
-}
-
-footer .email {
-  margin-bottom: 40px;
-}
-
-footer .email a {
-  text-decoration: none;
-  font-family: "Playfair Display", serif;
-}
-
-#contact a {
-  color: var(--primary-color);
-  text-decoration: none;
-  font-size: 30px;
-}
-#contact a:hover {
-  color: rgb(229, 162, 235);
-}
-#contact-me i {
-  font-size: 60px;
-  color: var(--primary-color);
-  border-radius: 50%;
-  padding: 5px 10px;
-}
-#contact-me i:hover {
-  color: rgb(229, 162, 235);
-}
-
 #link a {
   text-decoration: none;
   color: var(--primary-color);
 }
 #link a:hover {
-  color: rgb(229, 162, 235);
+  color: #8ef6e4;
 }
 .closing-statement {
   text-align: left;
@@ -248,8 +217,6 @@ footer .email a {
 }
 .intro-hi {
   background: url("images/background-image.jpg");
-  background-color: #cccccc;
-
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -273,6 +240,37 @@ footer .email a {
   font-size: 80px;
   padding: 5px 10px;
   color: var(--primary-color);
+}
+footer {
+  bottom: 0px;
+  width: 100%;
+}
+
+footer .email {
+  margin-bottom: 40px;
+}
+
+footer .email a {
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+}
+
+#contact a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 30px;
+}
+#contact a:hover {
+  color: #8ef6e4;
+}
+#contact-me i {
+  font-size: 60px;
+  color: var(--primary-color);
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+#contact-me i:hover {
+  color: #8ef6e4;
 }
 
 @media (max-width: 576px) {
