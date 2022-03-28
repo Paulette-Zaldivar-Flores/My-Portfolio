@@ -2,7 +2,7 @@
 A portfolio of my journey as a front-end developer so far 👩🏽‍💻🙃
 
 
-This web page was designed with insvision and coded with advanced HTML, CSS, JavaScript, Bootstrap and is responsive. This web page was developed for my responsive coding class.
+This web page was designed with insvision and coded with advanced HTML, CSS, Bootstrap and is responsive. This web page was developed for my responsive coding class.
 
 
 
@@ -10,7 +10,6 @@ Knowledge level (advanced understanding)
 -HTML
 -CSS 
 -Bootstrap
--JavaScript
 -Responsive Web Development
 
 
