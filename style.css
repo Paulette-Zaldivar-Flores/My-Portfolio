@@ -120,14 +120,14 @@ a.nav-link:hover:before {
 
 body {
   margin-top: 100px 0;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
 h2,
 h3 {
   margin: 0;
-  font-family: "Playfair Display", serif;
+  font-family: "Italiana", serif;
   text-align: center;
 }
 
@@ -146,13 +146,13 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
 }
 .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navigation-links a {
@@ -161,18 +161,17 @@ p {
 
 .primary-link {
   background: #522888;
-
   box-shadow: var(--primary-color);
   color: var(--secondary-color);
   border-radius: 50px;
-  outline: 2px solid #522888;
+  border: 2px solid #522888;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
 }
 .primary-link:hover {
   color: #522888;
-  background: #cdc7d9;
+  background: #ebe9f0;
   transition: background 1s;
 }
 
@@ -204,7 +203,7 @@ p {
 }
 
 .container {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #link a {
@@ -277,7 +276,7 @@ footer .email {
 
 footer .email a {
   text-decoration: none;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #contact a {
@@ -325,5 +324,12 @@ footer .email a {
     padding: 0px 0px;
     font-size: 14px;
     height: 78px;
+  }
+  a.nav-link:before {
+    width: 20%;
+    left: 40%;
+  }
+  .navbar-nav {
+    text-align: center;
   }
 }
