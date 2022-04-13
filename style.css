@@ -118,6 +118,10 @@ a.nav-link:hover:before {
   transform: scaleX(1);
 }
 
+.container {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
   margin-top: 100px 0;
   font-family: "Roboto", sans-serif;
@@ -190,33 +194,6 @@ p {
   display: block;
 }
 
-.about-paragraphs {
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  padding: 20px 10px;
-  margin: 10px;
-}
-#about-me {
-  font-size: 20px;
-}
-
-.container {
-  font-family: "Roboto", sans-serif;
-}
-
-#link a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-#link a:hover {
-  color: var(--secondary-color);
-}
-.closing-statement {
-  text-align: left;
-  font-size: 25px;
-}
 .intro-hi {
   background: url("images/background-image.jpg");
   height: 400px;
@@ -239,11 +216,22 @@ p {
   padding-bottom: 20px;
 }
 
-#icons {
-  font-size: 80px;
-  padding: 5px 10px;
-  color: var(--primary-color);
+.about-paragraphs {
+  margin: 30px 0;
 }
+
+.about-paragraphs p {
+  padding: 20px 10px;
+  margin: 10px;
+}
+#about-me {
+  font-size: 20px;
+}
+.closing-statement {
+  text-align: left;
+  font-size: 18px;
+}
+
 footer {
   margin-bottom: 0px;
   width: 100%;
@@ -279,6 +267,20 @@ footer .email a {
   font-family: "Roboto", sans-serif;
 }
 
+#icons {
+  font-size: 80px;
+  padding: 5px 10px;
+  color: var(--primary-color);
+}
+
+#link a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+#link a:hover {
+  color: var(--secondary-color);
+}
+
 #contact a {
   color: var(--primary-color);
   text-decoration: none;
@@ -298,6 +300,13 @@ footer .email a {
 }
 
 @media (max-width: 576px) {
+  a.nav-link:before {
+    width: 20%;
+    left: 40%;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
   h1 {
     font-size: 48px;
     line-height: 1.5;
@@ -317,19 +326,13 @@ footer .email a {
   .closing-statement {
     text-align: center;
   }
-  #icons i {
-    font-size: 60px;
-  }
+
   footer {
     padding: 0px 0px;
     font-size: 14px;
     height: 78px;
   }
-  a.nav-link:before {
-    width: 20%;
-    left: 40%;
-  }
-  .navbar-nav {
-    text-align: center;
+  #icons i {
+    font-size: 60px;
   }
 }
