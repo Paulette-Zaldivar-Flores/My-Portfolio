@@ -299,7 +299,7 @@ footer .email a {
   color: var(--secondary-color);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 700px) {
   a.nav-link:before {
     width: 20%;
     left: 40%;
