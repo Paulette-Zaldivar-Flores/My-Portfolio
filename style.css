@@ -119,12 +119,12 @@ a.nav-link:hover:before {
 }
 
 .container {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   margin-top: 100px 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -150,17 +150,22 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navigation-links a {
   margin: 20px;
+}
+
+.project-link {
+  display: inline-block;
+  text-align: center;
 }
 
 .primary-link {
