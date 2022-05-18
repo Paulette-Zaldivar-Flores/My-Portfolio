@@ -137,6 +137,7 @@ h3 {
 
 h1 {
   font-size: 80px;
+  color: rgb(132, 53, 142);
 }
 
 h2 {
@@ -174,8 +175,12 @@ rounded shadow {
 }
 
 .primary-link {
-  background: #522888;
-  box-shadow: var(--primary-color);
+  background: linear-gradient(
+    89.7deg,
+    rgb(0, 32, 95) 2.8%,
+    rgb(132, 53, 142) 97.8%
+  );
+  box-shadow: 0 5px 6px #07000a;
   color: var(--secondary-color);
   border-radius: 50px;
   border: 2px solid #522888;
@@ -184,8 +189,12 @@ rounded shadow {
   text-transform: capitalize;
 }
 .primary-link:hover {
-  color: #522888;
-  background: #ebe9f0;
+  color: #000000;
+  background: linear-gradient(
+    109.6deg,
+    rgb(243, 136, 136) 11.2%,
+    rgb(196, 157, 247) 75.1%
+  );
   transition: background 1s;
 }
 
@@ -280,7 +289,7 @@ footer .email a {
 #icons {
   font-size: 80px;
   padding: 5px 10px;
-  color: var(--primary-color);
+  color: rgb(0, 0, 0);
 }
 
 #link a {
@@ -288,7 +297,7 @@ footer .email a {
   color: var(--primary-color);
 }
 #link a:hover {
-  color: var(--secondary-color);
+  color: rgb(196, 157, 247);
 }
 
 #contact a {
@@ -297,7 +306,7 @@ footer .email a {
   font-size: 30px;
 }
 #contact a:hover {
-  color: grey;
+  color: rgb(196, 157, 247);
 }
 #contact-me i {
   font-size: 60px;
@@ -306,7 +315,7 @@ footer .email a {
   padding: 5px 10px;
 }
 #contact-me i:hover {
-  color: var(--secondary-color);
+  color: rgb(196, 157, 247);
 }
 
 @media (max-width: 700px) {
