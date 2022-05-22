@@ -63,9 +63,8 @@ body {
 }
 .logo {
   max-width: 80px;
-  border-radius: 5px;
-  border: 1px solid var(--primary-color);
 }
+
 .navbar {
   margin: 0 !important;
   width: 100%;
@@ -249,6 +248,10 @@ rounded shadow {
 .closing-statement {
   text-align: left;
   font-size: 18px;
+}
+form {
+  width: 60%;
+  margin: 0 auto;
 }
 
 footer {
