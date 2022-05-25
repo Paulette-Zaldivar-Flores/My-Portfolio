@@ -68,7 +68,6 @@ body {
 .navbar {
   margin: 0 !important;
   width: 100%;
-  padding: 2px 2px;
   margin-bottom: 5px;
   top: 0px;
 }
@@ -85,11 +84,11 @@ body {
 .navbar-brand,
 a.nav-link {
   letter-spacing: 0.1em;
-  font-size: 1em;
+  font-size: 20px;
 }
 
 .nav-item {
-  margin: 0px 10px 0px 10px;
+  padding: 0 5px;
 }
 
 .navbar-collapse {
@@ -118,12 +117,12 @@ a.nav-link:hover:before {
 }
 
 .container {
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body {
   margin-top: 100px 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 h1,
@@ -150,7 +149,7 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 rounded shadow {
@@ -161,7 +160,7 @@ rounded shadow {
   display: flex;
   margin-top: 40px;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .navigation-links a {
@@ -234,10 +233,6 @@ rounded shadow {
   padding-bottom: 20px;
 }
 
-.about-paragraphs {
-  margin: 30px 0;
-}
-
 .about-paragraphs p {
   padding: 20px 10px;
   margin: 10px;
@@ -245,10 +240,11 @@ rounded shadow {
 #about-me {
   font-size: 20px;
 }
-.closing-statement {
-  text-align: left;
-  font-size: 18px;
+
+.closing {
+  font-size: 20px;
 }
+
 form {
   width: 60%;
   margin: 0 auto;
@@ -286,11 +282,11 @@ footer .email {
 
 footer .email a {
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 #icons {
-  font-size: 80px;
+  font-size: 75px;
   padding: 5px 10px;
   color: rgb(0, 0, 0);
 }
@@ -351,10 +347,10 @@ footer .email a {
 
   footer {
     padding: 0px 0px;
-    font-size: 14px;
+    font-size: 12px;
     height: 78px;
   }
   #icons i {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
