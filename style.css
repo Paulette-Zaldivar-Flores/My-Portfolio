@@ -10,6 +10,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  overscroll-behavior-y: none;
+}
+
 .fade-in {
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
@@ -62,7 +66,7 @@ body {
   }
 }
 .logo {
-  max-width: 80px;
+  max-width: 85px;
 }
 
 .navbar {
@@ -84,7 +88,7 @@ body {
 .navbar-brand,
 a.nav-link {
   letter-spacing: 0.1em;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .nav-item {
@@ -143,7 +147,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 p {
@@ -333,6 +337,9 @@ footer .email a {
     font-size: 36px;
     text-align: center;
   }
+  h3 {
+    font-size: 20px;
+  }
   p {
     text-align: center;
   }
@@ -347,7 +354,7 @@ footer .email a {
 
   footer {
     padding: 0px 0px;
-    font-size: 12px;
+    font-size: 20px;
     height: 78px;
   }
   #icons i {
